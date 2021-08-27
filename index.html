@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="conatiner">
+      <div class="child">
+        <form id="fm">
+          <h1>Submission Form</h1>
+          <p id="alert"></p>
+          <input
+            id="Mail"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            id="Pass"
+            type="password"
+            placeholder="Enter your password"
+            required
+          />
+          <input id="Btn" type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
